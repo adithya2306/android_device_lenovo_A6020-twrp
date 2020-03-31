@@ -4,7 +4,7 @@
 
 /boot           emmc    /dev/block/bootdevice/by-name/boot            flags=display="Boot Image"
 /system         ext4    /dev/block/bootdevice/by-name/system          flags=display="System"
-/system_image   emmc    /dev/block/bootdevice/by-name/system          flags=flashimg=1;display="System Image"
+/system_image   emmc    /dev/block/bootdevice/by-name/system          flags=flashimg=1;display="System Image";backup=0
 /data           ext4    /dev/block/bootdevice/by-name/userdata        flags=encryptable=footer;length=-16384;display="Data"
 /cache          ext4    /dev/block/bootdevice/by-name/cache           flags=display="Cache"
 /persist        ext4    /dev/block/bootdevice/by-name/persist         flags=mounttodecrypt;backup=1;display="Persist"
