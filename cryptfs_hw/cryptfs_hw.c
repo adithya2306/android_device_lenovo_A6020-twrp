@@ -67,7 +67,7 @@ static int (*qseecom_update_key)(int, void*, void*);
 static int (*qseecom_wipe_key)(int);
 
 #define CRYPTFS_HW_KMS_WIPE_KEY				1
-#define CRYPTFS_HW_UP_CHECK_COUNT			10
+#define CRYPTFS_HW_UP_CHECK_COUNT			100
 #define CRYPTFS_HW_KMS_MAX_FAILURE			-10
 #define CRYPTFS_HW_UPDATE_KEY_FAILED			-9
 #define CRYPTFS_HW_WIPE_KEY_FAILED			-8
