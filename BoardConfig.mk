@@ -87,3 +87,4 @@ TW_INCLUDE_CRYPTO := true
 TW_EXCLUDE_SUPERSU := true
 TW_USE_TOOLBOX := true
 TW_NEW_ION_HEAP := true
+TW_INPUT_BLACKLIST := "hbtp_vm"
