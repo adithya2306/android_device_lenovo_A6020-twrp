@@ -30,7 +30,6 @@ PRODUCT_PACKAGES += \
 
 # Encryption
 PRODUCT_PACKAGES += \
-    keystore.msm8916 \
     libcryptfs_hw
 
 PRODUCT_PROPERTY_OVERRIDES += \

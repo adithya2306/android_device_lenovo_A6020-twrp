@@ -1,12 +1,6 @@
 [
   {
     "remote": "github",
-    "repository": "LineageOS/android_hardware_qcom_keymaster",
-    "target_path": "hardware/qcom/keymaster",
-    "revision": "lineage-16.0"
-  },
-  {
-    "remote": "github",
     "repository": "ArrowOS-Devices/android_kernel_lenovo_msm8916",
     "target_path": "kernel/lenovo/msm8916",
     "revision": "twrp-kernel"
