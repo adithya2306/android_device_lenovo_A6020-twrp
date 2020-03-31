@@ -78,7 +78,7 @@ TARGET_RECOVERY_PIXEL_FORMAT := RGBA_8888
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery/root/etc/twrp.fstab
 
 # TWRP Configuration
-TW_DEVICE_VERSION := _GHR-Edition
+TW_DEVICE_VERSION := GHR
 TW_THEME := portrait_hdpi
 TW_BRIGHTNESS_PATH := "/sys/class/leds/lcd-backlight/brightness"
 TW_MAX_BRIGHTNESS := 255
