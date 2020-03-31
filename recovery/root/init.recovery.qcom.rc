@@ -61,6 +61,7 @@ service qseecomd /sbin/qseecomd
     class core
     user root
     group root
+    disabled
 
 on property:ro.crypto.state=encrypted
     start qseecomd
